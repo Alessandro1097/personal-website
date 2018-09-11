@@ -60,11 +60,27 @@ html, body {
 }
 
 .black-blue {
-    background-color:#313048
+    background-color: #313048;
+    width: 150px;
+    height: 150px;
+    position: relative;
 }
 
 .round {
     border-radius: 50%;
 }
 
+.hobbyes-description {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 85%;
+    left: 50%;
+    color: white;
+}
 
+.img-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
