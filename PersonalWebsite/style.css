@@ -3,6 +3,11 @@ html, body {
     font-family: Roboto, SansSerif;
 }
 
+h3 {
+    font-weight: 700 !important;
+    font-size: 40px !important;
+}
+
 .img-code-container {
     height: 50%;
 }
@@ -22,6 +27,14 @@ html, body {
 
 .text-white {
     color: white;
+}
+
+.color-black {
+    background-color: #221E1F;
+}
+
+.color-white {
+    background-color: white;
 }
 
 .name-surname-position {
@@ -58,7 +71,6 @@ html, body {
 
 .back-line {
     height: 3px;
-    background-color: #221E1F;
     width: 5%;
     margin: auto;
 }
@@ -95,10 +107,12 @@ html, body {
 }
 
 .rectangle {
-    width: 150px;
+    width: 200px;
     background-color: #bdbfc1;
     margin: auto;
     font-weight: 700;
+    font-size: 24px;
+    color: #393839;
 }
 
 .horizontal-line {
@@ -135,4 +149,59 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.position-experience {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3e3e3f;
+    text-align: right;
+}
+
+.position-experience-left {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3e3e3f;
+    text-align: left;
+}
+
+.data-experience {
+    font-size: 20px;
+    font-weight: 700;
+    color: #525255;
+    text-align: right;
+}
+
+.data-experience-left {
+    font-size: 20px;
+    font-weight: 700;
+    color: #525255;
+    text-align: left;
+}
+
+.experience-section {
+    right: 55%;
+    transform: translate(-0%, -20%);
+}
+
+.experience-section-right {
+    left: 55%;
+    transform: translate(-0%, -20%);
+}
+
+.text-grey-light {
+    font-size: 17px;
+    font-weight: 500;
+    color: #9b9d9f;
+}
+
+.text-grey-light-right {
+    font-size: 17px;
+    font-weight: 500;
+    color: #9b9d9f;
+    text-align: right;
+}
+
+.skill {
+    background-color: #a7a9ac;
 }
