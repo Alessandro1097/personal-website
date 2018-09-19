@@ -18,7 +18,7 @@ h3 {
 
 .img-code {
     background-image: url("../assets/codice-opacizzato.png");
-    height: 70%;
+    height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,9 +69,20 @@ h3 {
     opacity: 0.6;
 }
 
-.text-medium-black {
+.text-md-black {
     font-size: 17px;
     color: #231F20;
+    font-weight: 700;
+}
+
+.text-lg-black {
+    font-size: 25px;
+    color: #231F20;
+    font-weight: 700;
+}
+
+.text-md {
+    font-size: 17px;
 }
 
 .back-line {
@@ -122,7 +133,7 @@ h3 {
 
 .horizontal-line {
     width: 1px;
-    height: 50px;
+    height: 70px;
     background-color: #231f20;
     margin: auto;
 }
@@ -143,7 +154,7 @@ h3 {
 
 .horizontal-line-xl {
     width: 1px;
-    height: 200px;
+    height: 150px;
     background-color: #231f20;
     margin: auto;
 }
@@ -209,4 +220,22 @@ h3 {
 
 .skill {
     background-color: #a7a9ac;
+}
+
+@media screen and (max-width: 1204px) {
+    .text-grey-light {display:none;}
+    .text-grey-light-right {display:none;}
+    .data-experience {font-size: 17px;}
+    .data-experience-left {font-size: 17px;}
+    .position-experience {font-size: 20px;}
+    .position-experience-left {font-size: 20px;}
+}
+
+@media screen and (max-width: 813px) {
+    .data-experience {display: none;}
+    .data-experience-left {display: none;}
+    .horizontal-line-xl {height: 100px;}
+    .horizontal-line {height: 50px;}
+    .experience-section {transform: translate(-0%, -60%);}
+    .experience-section-right {transform: translate(-0%, -60%);}
 }
